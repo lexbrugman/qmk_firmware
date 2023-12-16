@@ -1,6 +1,4 @@
-/* 
- * Copyright 2023 KBDCraft
- * Copyright 2023 Adophoxia <andyao1528@gmail.com>
+/* Copyright 2023 lexbrugman
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,9 +15,10 @@
  */
 
 #include QMK_KEYBOARD_H
+
 enum layer_names {
-  _BASE,
-  _FN1
+    _BASE,
+    _FN1
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {

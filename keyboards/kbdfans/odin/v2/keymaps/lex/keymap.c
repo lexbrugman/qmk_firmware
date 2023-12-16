@@ -1,4 +1,4 @@
-/* Copyright 2022 lexbrugman
+/* Copyright 2023 lexbrugman
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,6 +15,7 @@
  */
 
 #include QMK_KEYBOARD_H
+
 enum layer_names {
     _BASE
 };
